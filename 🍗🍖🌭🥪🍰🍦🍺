@@ -103,6 +103,14 @@ proxies:
       path: /b8bc0e2e-b0fd-42d8-8594-6833ebe25ceb-vmess
       headers:
         Host: hutao-majingyumajingyu.koyeb.app
+  - name: 🇫🇷 alwaysdata-100
+    server: iioo.alwaysdata.net
+    port: 443
+    type: trojan
+    password: 1eb6e917-774b-4a84-aff6-b058577c60a5
+    sni: iioo.alwaysdata.net
+    skip-cert-verify: true
+    udp: true
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -116,6 +124,7 @@ proxy-groups:
       - 🇺🇸 fly.io
       - 🇺🇸 Koyeb-io
       - 🇺🇸 Koyeb-to
+      - 🇫🇷 alwaysdata-100
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -128,6 +137,7 @@ proxy-groups:
       - 🇺🇸 fly.io
       - 🇺🇸 Koyeb-io
       - 🇺🇸 Koyeb-to
+      - 🇫🇷 alwaysdata-100
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -141,6 +151,7 @@ proxy-groups:
       - 🇺🇸 fly.io
       - 🇺🇸 Koyeb-io
       - 🇺🇸 Koyeb-to
+      - 🇫🇷 alwaysdata-100
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -166,6 +177,7 @@ proxy-groups:
       - 🇺🇸 fly.io
       - 🇺🇸 Koyeb-io
       - 🇺🇸 Koyeb-to
+      - 🇫🇷 alwaysdata-100
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -183,6 +195,7 @@ proxy-groups:
       - 🇺🇸 fly.io
       - 🇺🇸 Koyeb-io
       - 🇺🇸 Koyeb-to
+      - 🇫🇷 alwaysdata-100
   - name: 📲 电报信息
     type: select
     proxies:
@@ -195,6 +208,7 @@ proxy-groups:
       - 🇺🇸 fly.io
       - 🇺🇸 Koyeb-io
       - 🇺🇸 Koyeb-to
+      - 🇫🇷 alwaysdata-100
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -208,6 +222,7 @@ proxy-groups:
       - 🇺🇸 fly.io
       - 🇺🇸 Koyeb-io
       - 🇺🇸 Koyeb-to
+      - 🇫🇷 alwaysdata-100
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -230,6 +245,7 @@ proxy-groups:
       - 🇺🇸 fly.io
       - 🇺🇸 Koyeb-io
       - 🇺🇸 Koyeb-to
+      - 🇫🇷 alwaysdata-100
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
