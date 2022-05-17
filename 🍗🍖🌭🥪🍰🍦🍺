@@ -29,7 +29,7 @@ proxies:
       headers:
         Host: dj.jingyuss.tk
   - name: 🇺🇸 herku-us
-    server: 172.67.39.110
+    server: 172.64.114.200
     port: 443
     type: vmess
     uuid: bacf7f67-ee55-48a4-9ff2-bb5a4466c68f
@@ -44,7 +44,7 @@ proxies:
       headers:
         Host: oo.jingying.cf
   - name: 🇮🇪 herku-eu
-    server: 172.67.39.110
+    server: 172.64.114.200
     port: 443
     type: vmess
     uuid: 863427e4-a1cf-4f1b-b41c-7c551c381a1e
@@ -74,7 +74,7 @@ proxies:
       headers:
         Host: iioocc.fly.dev
   - name: 🇺🇸 Koyeb-io
-    server: 172.67.39.110
+    server: 172.64.114.200
     port: 443
     type: vmess
     uuid: 9b3a4b8c-dee8-460c-9d59-8f26f50ea50f
@@ -89,7 +89,7 @@ proxies:
       headers:
         Host: ioio-jingyusst107nk1zmq.koyeb.app
   - name: 🇺🇸 Koyeb-to
-    server: 172.67.39.110
+    server: 172.64.114.200
     port: 443
     type: vmess
     uuid: b8bc0e2e-b0fd-42d8-8594-6833ebe25ceb
@@ -110,7 +110,12 @@ proxies:
     password: 1eb6e917-774b-4a84-aff6-b058577c60a5
     sni: iioo.alwaysdata.net
     skip-cert-verify: true
+    network: ws
     udp: true
+    ws-opts:
+      path: /
+      headers:
+        Host: iioo.alwaysdata.net
 proxy-groups:
   - name: 🔰 节点选择
     type: select
