@@ -104,7 +104,7 @@ proxies:
       headers:
         Host: hutao-majingyumajingyu.koyeb.app
   - name: 🇺🇸 Koyeb-ttoo
-    server: hutao-majingyumajingyu.koyeb.app
+    server: 172.67.42.114
     port: 443
     type: trojan
     password: b8bc0e2e-b0fd-42d8-8594-6833ebe25ceb
