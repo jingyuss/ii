@@ -26,9 +26,7 @@ proxy-groups:
     interval: 300
     proxies:
       - 🍔🍔🍔
-      - 🍟🍟🍟
-      - 🥤🥤🥤
-  - name: 🎥 NETFLIX
+- name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
