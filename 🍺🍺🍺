@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-- name: 🍔🍔🍔
+  - name: 🍔🍔🍔
     server: zz.jingying.ml
     port: 443
     type: trojan
