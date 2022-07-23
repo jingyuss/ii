@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - name: 🍔🍔🍔
+  - name: 🥤🥤🥤
     server: zz.jingying.ml
     port: 443
     type: trojan
@@ -19,21 +19,21 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🍔🍔🍔
-- name: ♻️ 自动选择
+      - 🥤🥤🥤
+  - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🍔🍔🍔
-- name: 🎥 NETFLIX
+      - 🥤🥤🥤
+  - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🍔🍔🍔
-- name: ⛔️ 广告拦截
+      - 🥤🥤🥤
+  - name: ⛔️ 广告拦截
     type: select
     proxies:
       - 🛑 全球拦截
@@ -51,8 +51,8 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🍔🍔🍔
-- name: 🌏 国内媒体
+      - 🥤🥤🥤
+  - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
@@ -62,21 +62,21 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🍔🍔🍔
-- name: 📲 电报信息
+      - 🥤🥤🥤
+  - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🍔🍔🍔
-- name: 🍎 苹果服务
+      - 🥤🥤🥤
+  - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🍔🍔🍔
-- name: 🎯 全球直连
+      - 🥤🥤🥤
+  - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
@@ -91,7 +91,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🍔🍔🍔
+      - 🥤🥤🥤
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
