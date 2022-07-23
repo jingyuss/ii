@@ -14,18 +14,18 @@ proxies:
     skip-cert-verify: true
     udp: true
   - name: 🇩🇪 Euserv+
-    server: 104.17.81.125
+    server: 172.67.42.114
     port: 443
     type: vmess
-    uuid: 8c991e7b-530a-4377-ab72-49865340158b
+    uuid: 837a91a4-f6fc-46ac-ec7b-83ee17299bf2
     alterId: 0
-    cipher: auto
+    cipher: zero
     tls: true
     skip-cert-verify: true
     network: ws
     udp: true
     ws-opts:
-      path: /dolbvws
+      path: /
       headers:
         Host: dj.jingyuss.tk
   - name: 🇺🇸 herku-us
