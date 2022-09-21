@@ -11,7 +11,7 @@ proxies:
     type: vmess
     uuid: 50d9f54a-2ea0-4e47-8b20-6ace3b8b683c
     alterId: 0
-    cipher: zero
+    cipher: none
     tls: true
     skip-cert-verify: true
     network: ws
