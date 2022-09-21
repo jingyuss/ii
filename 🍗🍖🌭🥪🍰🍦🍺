@@ -6,13 +6,20 @@ log-level: info
 external-controller: :9090
 proxies:
   - name: 🇩🇪 Hax+
-    server: hax.jingying.cf
+    server: 172.67.42.114
     port: 443
-    type: trojan
-    password: KA2yy6AF4Q
-    sni: hax.jingying.cf
+    type: vmess
+    uuid: 50d9f54a-2ea0-4e47-8b20-6ace3b8b683c
+    alterId: 0
+    cipher: zero
+    tls: true
     skip-cert-verify: true
+    network: ws
     udp: true
+    ws-opts:
+      path: /
+      headers:
+        Host: hax.jingying.cf
   - name: 🇩🇪 Euserv+
     server: 172.67.42.114
     port: 443
