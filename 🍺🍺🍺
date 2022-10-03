@@ -29,7 +29,7 @@ proxies:
       headers:
         Host: zz.jingying.ml
   - name: 🌭🌭🌭
-    server: 142.4.123.163
+    server: zz.jingying.ml
     port: 37197
     type: vmess
     uuid: e620c88c-25e0-4793-b843-9760e29f2ce4
