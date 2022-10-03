@@ -35,36 +35,6 @@ proxies:
       path: /
       headers:
         Host: dj.jingyuss.tk
-  - name: 🇺🇸 herku-us
-    server: 172.67.42.114
-    port: 443
-    type: vmess
-    uuid: bacf7f67-ee55-48a4-9ff2-bb5a4466c68f
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    udp: true
-    ws-opts:
-      path: /ray
-      headers:
-        Host: oo.jingying.cf
-  - name: 🇮🇪 herku-eu
-    server: 172.67.42.114
-    port: 443
-    type: vmess
-    uuid: 863427e4-a1cf-4f1b-b41c-7c551c381a1e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    udp: true
-    ws-opts:
-      path: /ray
-      headers:
-        Host: ii.jingying.cf
   - name: 🇺🇸 fly.io
     server: iioocc.fly.dev
     port: 443
@@ -123,6 +93,16 @@ proxies:
       path: /b8bc0e2e-b0fd-42d8-8594-6833ebe25ceb-trojan
       headers:
         Host: hutao-majingyumajingyu.koyeb.app
+    - name: 🇩🇪 Hax
+    server: hax.jingying.cf
+    port: 53929
+    type: vmess
+    uuid: f0ce7f55-3075-4438-9833-f98bb609b143
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -144,12 +124,11 @@ proxy-groups:
     proxies:
       - 🇩🇪 Hax+
       - 🇩🇪 Euserv+
-      - 🇺🇸 herku-us
-      - 🇮🇪 herku-eu
       - 🇺🇸 fly.io
       - 🇺🇸 Koyeb-io
       - 🇺🇸 Koyeb-to
       - 🇺🇸 Koyeb-ttoo
+      - 🇩🇪 Hax
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -158,12 +137,11 @@ proxy-groups:
       - 🎯 全球直连
       - 🇩🇪 Hax+
       - 🇩🇪 Euserv+
-      - 🇺🇸 herku-us
-      - 🇮🇪 herku-eu
       - 🇺🇸 fly.io
       - 🇺🇸 Koyeb-io
       - 🇺🇸 Koyeb-to
       - 🇺🇸 Koyeb-ttoo
+      - 🇩🇪 Hax
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -184,12 +162,11 @@ proxy-groups:
       - 🎯 全球直连
       - 🇩🇪 Hax+
       - 🇩🇪 Euserv+
-      - 🇺🇸 herku-us
-      - 🇮🇪 herku-eu
       - 🇺🇸 fly.io
       - 🇺🇸 Koyeb-io
       - 🇺🇸 Koyeb-to
       - 🇺🇸 Koyeb-ttoo
+      - 🇩🇪 Hax
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -202,12 +179,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🇩🇪 Hax+
       - 🇩🇪 Euserv+
-      - 🇺🇸 herku-us
-      - 🇮🇪 herku-eu
       - 🇺🇸 fly.io
       - 🇺🇸 Koyeb-io
       - 🇺🇸 Koyeb-to
       - 🇺🇸 Koyeb-ttoo
+      - 🇩🇪 Hax
   - name: 📲 电报信息
     type: select
     proxies:
@@ -215,12 +191,11 @@ proxy-groups:
       - 🎯 全球直连
       - 🇩🇪 Hax+
       - 🇩🇪 Euserv+
-      - 🇺🇸 herku-us
-      - 🇮🇪 herku-eu
       - 🇺🇸 fly.io
       - 🇺🇸 Koyeb-io
       - 🇺🇸 Koyeb-to
       - 🇺🇸 Koyeb-ttoo
+      - 🇩🇪 Hax
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -229,12 +204,11 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇩🇪 Hax+
       - 🇩🇪 Euserv+
-      - 🇺🇸 herku-us
-      - 🇮🇪 herku-eu
       - 🇺🇸 fly.io
       - 🇺🇸 Koyeb-io
       - 🇺🇸 Koyeb-to
       - 🇺🇸 Koyeb-ttoo
+      - 🇩🇪 Hax
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -252,12 +226,11 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇩🇪 Hax+
       - 🇩🇪 Euserv+
-      - 🇺🇸 herku-us
-      - 🇮🇪 herku-eu
       - 🇺🇸 fly.io
       - 🇺🇸 Koyeb-io
       - 🇺🇸 Koyeb-to
       - 🇺🇸 Koyeb-ttoo
+      - 🇩🇪 Hax
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
