@@ -6,7 +6,7 @@ log-level: info
 external-controller: :9090
 proxies:
   - name: 🇩🇪 Hax+
-    server: 172.67.42.114
+    server: 172.64.157.78
     port: 443
     type: vmess
     uuid: 50d9f54a-2ea0-4e47-8b20-6ace3b8b683c
@@ -21,7 +21,7 @@ proxies:
       headers:
         Host: hax.jingying.cf
   - name: 🇩🇪 Euserv+
-    server: 172.67.42.114
+    server: 172.64.157.78
     port: 443
     type: vmess
     uuid: 837a91a4-f6fc-46ac-ec7b-83ee17299bf2
@@ -50,23 +50,8 @@ proxies:
       path: /
       headers:
         Host: iioocc.fly.dev
-  - name: 🇺🇸 Koyeb-io
-    server: 172.67.42.114
-    port: 443
-    type: vmess
-    uuid: 9b3a4b8c-dee8-460c-9d59-8f26f50ea50f
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    udp: true
-    ws-opts:
-      path: /
-      headers:
-        Host: ioio-jingyusst107nk1zmq.koyeb.app
   - name: 🇺🇸 Koyeb-to
-    server: 172.67.42.114
+    server: 172.64.157.78
     port: 443
     type: vmess
     uuid: b8bc0e2e-b0fd-42d8-8594-6833ebe25ceb
@@ -81,7 +66,7 @@ proxies:
       headers:
         Host: hutao-majingyumajingyu.koyeb.app
   - name: 🇺🇸 Koyeb-ttoo
-    server: 172.67.42.114
+    server: 172.64.157.78
     port: 443
     type: trojan
     password: b8bc0e2e-b0fd-42d8-8594-6833ebe25ceb
@@ -112,7 +97,6 @@ proxy-groups:
       - 🇩🇪 Hax+
       - 🇩🇪 Euserv+
       - 🇺🇸 fly.io
-      - 🇺🇸 Koyeb-io
       - 🇺🇸 Koyeb-to
       - 🇺🇸 Koyeb-ttoo
       - 🇩🇪 Hax
@@ -124,7 +108,6 @@ proxy-groups:
       - 🇩🇪 Hax+
       - 🇩🇪 Euserv+
       - 🇺🇸 fly.io
-      - 🇺🇸 Koyeb-io
       - 🇺🇸 Koyeb-to
       - 🇺🇸 Koyeb-ttoo
       - 🇩🇪 Hax
@@ -137,7 +120,6 @@ proxy-groups:
       - 🇩🇪 Hax+
       - 🇩🇪 Euserv+
       - 🇺🇸 fly.io
-      - 🇺🇸 Koyeb-io
       - 🇺🇸 Koyeb-to
       - 🇺🇸 Koyeb-ttoo
       - 🇩🇪 Hax
@@ -162,7 +144,6 @@ proxy-groups:
       - 🇩🇪 Hax+
       - 🇩🇪 Euserv+
       - 🇺🇸 fly.io
-      - 🇺🇸 Koyeb-io
       - 🇺🇸 Koyeb-to
       - 🇺🇸 Koyeb-ttoo
       - 🇩🇪 Hax
@@ -179,7 +160,6 @@ proxy-groups:
       - 🇩🇪 Hax+
       - 🇩🇪 Euserv+
       - 🇺🇸 fly.io
-      - 🇺🇸 Koyeb-io
       - 🇺🇸 Koyeb-to
       - 🇺🇸 Koyeb-ttoo
       - 🇩🇪 Hax
@@ -191,7 +171,6 @@ proxy-groups:
       - 🇩🇪 Hax+
       - 🇩🇪 Euserv+
       - 🇺🇸 fly.io
-      - 🇺🇸 Koyeb-io
       - 🇺🇸 Koyeb-to
       - 🇺🇸 Koyeb-ttoo
       - 🇩🇪 Hax
@@ -204,7 +183,6 @@ proxy-groups:
       - 🇩🇪 Hax+
       - 🇩🇪 Euserv+
       - 🇺🇸 fly.io
-      - 🇺🇸 Koyeb-io
       - 🇺🇸 Koyeb-to
       - 🇺🇸 Koyeb-ttoo
       - 🇩🇪 Hax
@@ -226,7 +204,6 @@ proxy-groups:
       - 🇩🇪 Hax+
       - 🇩🇪 Euserv+
       - 🇺🇸 fly.io
-      - 🇺🇸 Koyeb-io
       - 🇺🇸 Koyeb-to
       - 🇺🇸 Koyeb-ttoo
       - 🇩🇪 Hax
