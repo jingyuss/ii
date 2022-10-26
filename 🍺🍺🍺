@@ -14,7 +14,7 @@ proxies:
     skip-cert-verify: true
     udp: true
   - name: 🥪🥪🥪
-    server: 172.67.42.114
+    server: 172.64.157.78
     port: 8443
     type: vmess
     uuid: d47e3d90-fd74-463e-8d10-9738705c66da
