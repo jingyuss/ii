@@ -669,53 +669,45 @@ ca-p12 = MIIEWgIBAzCCBCAGCSqGSIb3DQEHAaCCBBEEggQNMIIECTCCAv8GCSqGSIb3DQEHBqCCAvA
 
 [Proxy]
 DIRECT = direct
-🇺🇸 euserv v4 = vmess, 104.16.154.81, 443, username=ed2b3b17-7289-4d96-9c62-cc9294da6e02, tls=true, vmess-aead=true, ws=true, ws-path=/, sni=104.16.154.81, ws-headers=Host:dj.jingyuss.tk, skip-cert-verify=false, tfo=false, udp-relay=false
-🇺🇸 euserv v6 = vmess, [2606:4700:f4:c7bd:83c3:befe:76e7:9659], 443, username=ed2b3b17-7289-4d96-9c62-cc9294da6e02, tls=true, vmess-aead=true, ws=true, ws-path=/, sni=[2606:4700:f4:c7bd:83c3:befe:76e7:9659], ws-headers=Host:dj.jingyuss.tk, skip-cert-verify=false, tfo=false, udp-relay=false
-hax v4 = vmess, 104.16.154.81, 443, username=ed2b3b17-7289-4d96-9c62-cc9294da6e02, tls=true, vmess-aead=true, ws=true, ws-path=/, sni=104.16.154.81, ws-headers=Host:hax.jingying.cf, skip-cert-verify=false, tfo=false, udp-relay=false
-hax v6 = vmess, [2606:4700:f4:c7bd:83c3:befe:76e7:9659], 443, username=ed2b3b17-7289-4d96-9c62-cc9294da6e02, tls=true, vmess-aead=true, ws=true, ws-path=/, sni=[2606:4700:f4:c7bd:83c3:befe:76e7:9659], ws-headers=Host:hax.jingying.cf, skip-cert-verify=false, tfo=false, udp-relay=false
-hax = vmess, hax.jingying.cf, 53929, username=ed2b3b17-7289-4d96-9c62-cc9294da6e02, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
-r trojan = trojan, zz.jingying.ml, 443, password=uyikhgfgfh546841321546, sni=zz.jingying.ml, skip-cert-verify=false, tfo=false, udp-relay=false
-r Gcore v6 = vmess, cc.jingying.eu.org, 443, username=ed2b3b17-7289-4d96-9c62-cc9294da6e02, tls=true, vmess-aead=true, ws=true, ws-path=/nn, sni=cc.jingying.eu.org, ws-headers=Host:cc.jingying.eu.org, skip-cert-verify=false, tfo=false, udp-relay=false
-r Gcore v4 = vmess, 194.67.48.26, 443, username=ed2b3b17-7289-4d96-9c62-cc9294da6e02, tls=true, vmess-aead=true, ws=true, ws-path=/nn, sni=194.67.48.26, ws-headers=Host:cc.jingying.eu.org, skip-cert-verify=false, tfo=false, udp-relay=false
-r cdn v4 = vmess, 104.16.92.186, 8443, username=ed2b3b17-7289-4d96-9c62-cc9294da6e02, tls=true, vmess-aead=true, ws=true, ws-path=/, sni=104.16.92.186, ws-headers=Host:zz.jingying.ml, skip-cert-verify=false, tfo=false, udp-relay=false
-r cdn v6 = vmess, [2606:4700:f4:c7bd:83c3:befe:76e7:9659], 8443, username=ed2b3b17-7289-4d96-9c62-cc9294da6e02, tls=true, vmess-aead=true, ws=true, ws-path=/, sni=[2606:4700:f4:c7bd:83c3:befe:76e7:9659], ws-headers=Host:zz.jingying.ml, skip-cert-verify=false, tfo=false, udp-relay=false
-fly.io = vmess, iioocc.fly.dev, 443, username=ed2b3b17-7289-4d96-9c62-cc9294da6e02, tls=true, vmess-aead=true, ws=true, ws-path=/, sni=iioocc.fly.dev, ws-headers=Host:iioocc.fly.dev, skip-cert-verify=false, tfo=false, udp-relay=false
-Koyeb-to v4 = vmess, 104.16.154.81, 443, username=ed2b3b17-7289-4d96-9c62-cc9294da6e02, tls=true, vmess-aead=true, ws=true, ws-path=/b8bc0e2e-b0fd-42d8-8594-6833ebe25ceb-vmess, sni=104.16.154.81, ws-headers=Host:hutao-majingyumajingyu.koyeb.app, skip-cert-verify=false, tfo=false, udp-relay=false
-Koyeb-to v6 = vmess, [2606:4700:f4:c7bd:83c3:befe:76e7:9659], 443, username=ed2b3b17-7289-4d96-9c62-cc9294da6e02, tls=true, vmess-aead=true, ws=true, ws-path=/b8bc0e2e-b0fd-42d8-8594-6833ebe25ceb-vmess, sni=[2606:4700:f4:c7bd:83c3:befe:76e7:9659], ws-headers=Host:hutao-majingyumajingyu.koyeb.app, skip-cert-verify=false, tfo=false, udp-relay=false
-🇭🇰 香港节点 = direct
-🇯🇵 日本节点 = direct
-🇺🇲 美国节点 = direct
-🇨🇳 台湾节点 = direct
-🇸🇬 狮城节点 = direct
-🇰🇷 韩国节点 = direct
-🌍 其他地区 = direct
-♻️ 专线节点 = direct
+🇩🇪 euserv v4 = vmess, 104.16.154.81, 443, username=837a91a4-f6fc-46ac-ec7b-83ee17299bf2, tls=true, vmess-aead=true, ws=true, ws-path=/, sni=104.16.154.81, ws-headers=Host:dj.jingyuss.tk, skip-cert-verify=false, tfo=false, udp-relay=false
+🇩🇪 euserv v6 = vmess, [2606:4700:f4:c7bd:83c3:befe:76e7:9659], 443, username=837a91a4-f6fc-46ac-ec7b-83ee17299bf2, tls=true, vmess-aead=true, ws=true, ws-path=/, sni=[2606:4700:f4:c7bd:83c3:befe:76e7:9659], ws-headers=Host:dj.jingyuss.tk, skip-cert-verify=false, tfo=false, udp-relay=false
+🇩🇪 hax v4 = vmess, 104.16.154.81, 443, username=50d9f54a-2ea0-4e47-8b20-6ace3b8b683c, tls=true, vmess-aead=true, ws=true, ws-path=/, sni=104.16.154.81, ws-headers=Host:hax.jingying.cf, skip-cert-verify=false, tfo=false, udp-relay=false
+🇩🇪 hax v6 = vmess, [2606:4700:f4:c7bd:83c3:befe:76e7:9659], 443, username=50d9f54a-2ea0-4e47-8b20-6ace3b8b683c, tls=true, vmess-aead=true, ws=true, ws-path=/, sni=[2606:4700:f4:c7bd:83c3:befe:76e7:9659], ws-headers=Host:hax.jingying.cf, skip-cert-verify=false, tfo=false, udp-relay=false
+🇩🇪 hax = vmess, hax.jingying.cf, 53929, username=f0ce7f55-3075-4438-9833-f98bb609b143, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
+🇺🇸 r trojan = trojan, zz.jingying.ml, 443, password=110.001., sni=zz.jingying.ml, skip-cert-verify=false, tfo=false, udp-relay=false
+🇺🇸 r Gcore v6 = vmess, cc.jingying.eu.org, 443, username=65fffd64-e430-47d0-a51c-e6006d313515, tls=true, vmess-aead=true, ws=true, ws-path=/nn, sni=cc.jingying.eu.org, ws-headers=Host:cc.jingying.eu.org, skip-cert-verify=false, tfo=false, udp-relay=false
+🇺🇸 r Gcore v4 = vmess, 194.67.48.26, 443, username=65fffd64-e430-47d0-a51c-e6006d313515, tls=true, vmess-aead=true, ws=true, ws-path=/nn, sni=194.67.48.26, ws-headers=Host:cc.jingying.eu.org, skip-cert-verify=false, tfo=false, udp-relay=false
+🇺🇸 r cdn v4 = vmess, 104.16.92.186, 8443, username=d47e3d90-fd74-463e-8d10-9738705c66da, tls=true, vmess-aead=true, ws=true, ws-path=/, sni=104.16.92.186, ws-headers=Host:zz.jingying.ml, skip-cert-verify=false, tfo=false, udp-relay=false
+🇺🇸 r cdn v6 = vmess, [2606:4700:f4:c7bd:83c3:befe:76e7:9659], 8443, username=d47e3d90-fd74-463e-8d10-9738705c66da, tls=true, vmess-aead=true, ws=true, ws-path=/, sni=[2606:4700:f4:c7bd:83c3:befe:76e7:9659], ws-headers=Host:zz.jingying.ml, skip-cert-verify=false, tfo=false, udp-relay=false
+🇺🇸 fly.io = vmess, iioocc.fly.dev, 443, username=82bd9a65-559d-4566-8e60-858aa08572af, tls=true, vmess-aead=true, ws=true, ws-path=/, sni=iioocc.fly.dev, ws-headers=Host:iioocc.fly.dev, skip-cert-verify=false, tfo=false, udp-relay=false
+🇺🇸 Koyeb-to v4 = vmess, 104.16.154.81, 443, username=b8bc0e2e-b0fd-42d8-8594-6833ebe25ceb, tls=true, vmess-aead=true, ws=true, ws-path=/b8bc0e2e-b0fd-42d8-8594-6833ebe25ceb-vmess, sni=104.16.154.81, ws-headers=Host:hutao-majingyumajingyu.koyeb.app, skip-cert-verify=false, tfo=false, udp-relay=false
+🇺🇸 Koyeb-to v6 = vmess, [2606:4700:f4:c7bd:83c3:befe:76e7:9659], 443, username=b8bc0e2e-b0fd-42d8-8594-6833ebe25ceb, tls=true, vmess-aead=true, ws=true, ws-path=/b8bc0e2e-b0fd-42d8-8594-6833ebe25ceb-vmess, sni=[2606:4700:f4:c7bd:83c3:befe:76e7:9659], ws-headers=Host:hutao-majingyumajingyu.koyeb.app, skip-cert-verify=false, tfo=false, udp-relay=false
 
 [Proxy Group]
-♻️ 手动切换 = select,🇺🇸 euserv v4,🇺🇸 euserv v6,hax v4,hax v6,hax,r trojan,r Gcore v6,r Gcore v4,r cdn v4,r cdn v6,fly.io,Koyeb-to v4,Koyeb-to v6
-📲 聊天软件 = select,🇭🇰 香港节点,🇯🇵 日本节点,🇺🇲 美国节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇰🇷 韩国节点,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
-🎬 YouTube = select,🇭🇰 香港节点,🇯🇵 日本节点,🇺🇲 美国节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇰🇷 韩国节点,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
-🎬 NETFLIX = select,🇸🇬 狮城节点,🇭🇰 香港节点,🇯🇵 日本节点,🇺🇲 美国节点,🇨🇳 台湾节点,🇰🇷 韩国节点,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
-🎬 Prime = select,🇭🇰 香港节点,🇯🇵 日本节点,🇺🇲 美国节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇰🇷 韩国节点,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
-🎬 DisneyPlus = select,🇭🇰 香港节点,🇯🇵 日本节点,🇺🇲 美国节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇰🇷 韩国节点,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
-🎬 HBO GO = select,🇭🇰 香港节点,🇯🇵 日本节点,🇺🇲 美国节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇰🇷 韩国节点,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
-🎬 HBO MAX = select,🇭🇰 香港节点,🇯🇵 日本节点,🇺🇲 美国节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇰🇷 韩国节点,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
-🎬 EMBY = select,🇭🇰 香港节点,🇯🇵 日本节点,🇺🇲 美国节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇰🇷 韩国节点,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
-🎬 巴哈姆特 = select,🇨🇳 台湾节点,🇭🇰 香港节点,🇯🇵 日本节点,🇺🇲 美国节点,🇸🇬 狮城节点,🇰🇷 韩国节点,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
-🎬 日韩媒体 = select,🇯🇵 日本节点,🇭🇰 香港节点,🇺🇲 美国节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇰🇷 韩国节点,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
-🎬 国外媒体 = select,🇭🇰 香港节点,🇯🇵 日本节点,🇺🇲 美国节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇰🇷 韩国节点,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
-🎬 港台媒体 = select,🇭🇰 香港节点,🇯🇵 日本节点,🇺🇲 美国节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇰🇷 韩国节点,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
-🌏 国外网站 = select,🇭🇰 香港节点,🇯🇵 日本节点,🇺🇲 美国节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇰🇷 韩国节点,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
-🇧🇹 BT&PT = select,DIRECT,🇭🇰 香港节点,🇯🇵 日本节点,🇺🇲 美国节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇰🇷 韩国节点,🌍 其他地区,♻️ 专线节点,♻️ 手动切换
-🎵 Spotify = select,🇭🇰 香港节点,🇯🇵 日本节点,🇺🇲 美国节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇰🇷 韩国节点,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
-🎵 TikTok = select,🇯🇵 日本节点,🇭🇰 香港节点,🇺🇲 美国节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇰🇷 韩国节点,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
-🍎 苹果服务 = select,DIRECT,🇭🇰 香港节点,🇯🇵 日本节点,🇺🇲 美国节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇰🇷 韩国节点,🌍 其他地区,♻️ 专线节点,♻️ 手动切换
-🧩 微软服务 = select,DIRECT,🇭🇰 香港节点,🇯🇵 日本节点,🇺🇲 美国节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇰🇷 韩国节点,🌍 其他地区,♻️ 专线节点,♻️ 手动切换
-🎬 爱奇艺 = select,DIRECT,🇭🇰 香港节点,🇯🇵 日本节点,🇺🇲 美国节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇰🇷 韩国节点,🌍 其他地区,♻️ 专线节点,♻️ 手动切换
-🎬 哔哩哔哩 = select,DIRECT,🇭🇰 香港节点,🇯🇵 日本节点,🇺🇲 美国节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇰🇷 韩国节点,🌍 其他地区,♻️ 专线节点,♻️ 手动切换
-🎮 游戏平台 = select,DIRECT,🇭🇰 香港节点,🇯🇵 日本节点,🇺🇲 美国节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇰🇷 韩国节点,🌍 其他地区,♻️ 专线节点,♻️ 手动切换
-🌏 国内网站 = select,DIRECT,🇭🇰 香港节点,🇯🇵 日本节点,🇺🇲 美国节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇰🇷 韩国节点,🌍 其他地区,♻️ 专线节点,♻️ 手动切换
-🐟 漏网之鱼 = select,DIRECT,🇭🇰 香港节点,🇯🇵 日本节点,🇺🇲 美国节点,🇨🇳 台湾节点,🇸🇬 狮城节点,🇰🇷 韩国节点,🌍 其他地区,♻️ 专线节点,♻️ 手动切换
+♻️ 手动切换 = select,🇩🇪 euserv v4,🇩🇪 euserv v6,🇩🇪 hax v4,🇩🇪 hax v6,🇩🇪 hax,🇺🇸 r trojan,🇺🇸 r Gcore v6,🇺🇸 r Gcore v4,🇺🇸 r cdn v4,🇺🇸 r cdn v6,🇺🇸 fly.io,🇺🇸 Koyeb-to v4,🇺🇸 Koyeb-to v6
+📲 聊天软件 = select,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
+🎬 YouTube = select,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
+🎬 NETFLIX = select,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
+🎬 Prime = select,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
+🎬 DisneyPlus = select,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
+🎬 HBO GO = select,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
+🎬 HBO MAX = select,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
+🎬 EMBY = select,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
+🎬 巴哈姆特 = select,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
+🎬 日韩媒体 = select,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
+🎬 国外媒体 = select,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
+🎬 港台媒体 = select,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
+🌏 国外网站 = select,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
+🇧🇹 BT&PT = select,DIRECT,🌍 其他地区,♻️ 专线节点,♻️ 手动切换
+🎵 Spotify = select,♻️ 专线节点,♻️ 手动切换,DIRECT
+🎵 TikTok = select,🌍 其他地区,♻️ 专线节点,♻️ 手动切换,DIRECT
+🍎 苹果服务 = select,DIRECT,🌍 其他地区,♻️ 专线节点,♻️ 手动切换
+🧩 微软服务 = select,DIRECT,🌍 其他地区,♻️ 专线节点,♻️ 手动切换
+🎬 爱奇艺 = select,DIRECT,🌍 其他地区,♻️ 专线节点,♻️ 手动切换
+🎬 哔哩哔哩 = select,DIRECT,🌍 其他地区,♻️ 专线节点,♻️ 手动切换
+🎮 游戏平台 = select,DIRECT,🌍 其他地区,♻️ 专线节点,♻️ 手动切换
+🌏 国内网站 = select,DIRECT,🌍 其他地区,♻️ 专线节点,♻️ 手动切换
+🐟 漏网之鱼 = select,DIRECT,🌍 其他地区,♻️ 专线节点,♻️ 手动切换
 
 [Rule]
 RULE-SET,https://raw.githubusercontent.com/Meilieage/webcdn/main/rule/list/YouXiPingTai.list,🎮 游戏平台,update-interval=86400
