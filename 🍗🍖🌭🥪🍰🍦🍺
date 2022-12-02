@@ -84,7 +84,7 @@ proxies:
       headers:
         Host: cc.jingying.eu.org
   - name: r Gcore v4
-    server: 194.67.48.26
+    server: 92.223.116.222
     port: 443
     type: vmess
     uuid: 65fffd64-e430-47d0-a51c-e6006d313515
@@ -99,7 +99,7 @@ proxies:
       headers:
         Host: cc.jingying.eu.org
   - name: r cdn v4
-    server: 172.64.150.123
+    server: 141.101.114.2
     port: 8443
     type: vmess
     uuid: d47e3d90-fd74-463e-8d10-9738705c66da
