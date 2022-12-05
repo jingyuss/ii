@@ -1,0 +1,61 @@
+#!MANAGED-CONFIG https://id9.cc/sub?target=surge&ver=4&url=https%3A%2F%2Fgitlab.com%2Fapi%2Fv4%2Fprojects%2F32356358%2Frepository%2Ffiles%2Fdata%252Fmy~~surge.txt%2Fraw%3Fref%3Dmain%26private_token%3Dglpat-tHfHgyboFbtNn6Xu8Dbd&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_AdblockPlus.ini interval=86400 strict=false
+
+[General]
+loglevel = notify
+bypass-system = true
+skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,e.crashlytics.com,captive.apple.com,::ffff:0:0:0:0/1,::ffff:128:0:0:0/1
+#DNS设置或根据自己网络情况进行相应设置
+bypass-tun = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
+dns-server = 119.29.29.29,223.5.5.5,system
+
+[Script]
+http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+
+[Proxy]
+DIRECT = direct
+🇩🇪 euserv v4 = vmess, 172.64.157.78, 443, username=837a91a4-f6fc-46ac-ec7b-83ee17299bf2, tls=true, vmess-aead=true, ws=true, ws-path=/, sni=104.16.154.81, ws-headers=Host:dj.jingyuss.tk, skip-cert-verify=false, tfo=false, udp-relay=false
+🇩🇪 euserv v6 = vmess, [2606:4700:a0:0:6974:2f65:89f6:194b], 443, username=837a91a4-f6fc-46ac-ec7b-83ee17299bf2, tls=true, vmess-aead=true, ws=true, ws-path=/, sni=[2606:4700:f4:c7bd:83c3:befe:76e7:9659], ws-headers=Host:dj.jingyuss.tk, skip-cert-verify=false, tfo=false, udp-relay=false
+🇩🇪 hax v4 = vmess, 172.64.157.78, 443, username=50d9f54a-2ea0-4e47-8b20-6ace3b8b683c, tls=true, vmess-aead=true, ws=true, ws-path=/, sni=104.16.154.81, ws-headers=Host:hax.jingying.cf, skip-cert-verify=false, tfo=false, udp-relay=false
+🇩🇪 hax v6 = vmess, [2606:4700:a0:0:6974:2f65:89f6:194b], 443, username=50d9f54a-2ea0-4e47-8b20-6ace3b8b683c, tls=true, vmess-aead=true, ws=true, ws-path=/, sni=[2606:4700:f4:c7bd:83c3:befe:76e7:9659], ws-headers=Host:hax.jingying.cf, skip-cert-verify=false, tfo=false, udp-relay=false
+🇩🇪 hax = vmess, hax.jingying.cf, 53929, username=f0ce7f55-3075-4438-9833-f98bb609b143, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
+🇺🇸 r Gcore v4 = vmess, 92.223.116.209, 443, username=6f3207b2-736b-4511-a4ad-c69e7d4aa29c, tls=true, vmess-aead=true, ws=true, ws-path=/nmsldsb.gq, sni=92.223.116.209, ws-headers=Host:cc.jingying.eu.org, skip-cert-verify=false, tfo=false, udp-relay=false
+🇺🇸 r cdn v4 = vmess, 172.64.157.78, 8443, username=d47e3d90-fd74-463e-8d10-9738705c66da, tls=true, vmess-aead=true, ws=true, ws-path=/, sni=104.16.92.186, ws-headers=Host:zz.jingying.ml, skip-cert-verify=false, tfo=false, udp-relay=false
+🇺🇸 r cdn v6 = vmess, [2606:4700:a0:0:6974:2f65:89f6:194b], 8443, username=d47e3d90-fd74-463e-8d10-9738705c66da, tls=true, vmess-aead=true, ws=true, ws-path=/, sni=[2606:4700:f4:c7bd:83c3:befe:76e7:9659], ws-headers=Host:zz.jingying.ml, skip-cert-verify=false, tfo=false, udp-relay=false
+🇺🇸 fly.io = vmess, iioocc.fly.dev, 443, username=82bd9a65-559d-4566-8e60-858aa08572af, tls=true, vmess-aead=true, ws=true, ws-path=/, sni=iioocc.fly.dev, ws-headers=Host:iioocc.fly.dev, skip-cert-verify=false, tfo=false, udp-relay=false
+🇺🇸 Koyeb-to v4 = vmess, 172.64.157.78, 443, username=b8bc0e2e-b0fd-42d8-8594-6833ebe25ceb, tls=true, vmess-aead=true, ws=true, ws-path=/b8bc0e2e-b0fd-42d8-8594-6833ebe25ceb-vmess, sni=104.16.154.81, ws-headers=Host:hutao-majingyumajingyu.koyeb.app, skip-cert-verify=false, tfo=false, udp-relay=false
+🇺🇸 Koyeb-to v6 = vmess, [2606:4700:a0:0:6974:2f65:89f6:194b], 443, username=b8bc0e2e-b0fd-42d8-8594-6833ebe25ceb, tls=true, vmess-aead=true, ws=true, ws-path=/b8bc0e2e-b0fd-42d8-8594-6833ebe25ceb-vmess, sni=[2606:4700:f4:c7bd:83c3:befe:76e7:9659], ws-headers=Host:hutao-majingyumajingyu.koyeb.app, skip-cert-verify=false, tfo=false, udp-relay=false
+
+[Proxy Group]
+🚀 节点选择 = select,♻️ 自动选择,DIRECT,🇩🇪 euserv v4,🇩🇪 euserv v6,🇩🇪 hax v4,🇩🇪 hax v6,🇩🇪 hax,🇺🇸 r Gcore v4,🇺🇸 r cdn v4,🇺🇸 r cdn v6,🇺🇸 fly.io,🇺🇸 Koyeb-to v4,🇺🇸 Koyeb-to v6
+♻️ 自动选择 = url-test,euserv v4,euserv v6,hax v4,hax v6,hax,r trojan,r Gcore v6,r Gcore v4,r cdn v4,r cdn v6,fly.io,Koyeb-to v4,Koyeb-to v6,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,euserv v4,euserv v6,hax v4,hax v6,hax,r trojan,r Gcore v6,r Gcore v4,r cdn v4,r cdn v6,fly.io,Koyeb-to v4,Koyeb-to v6
+📢 谷歌FCM = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,euserv v4,euserv v6,hax v4,hax v6,hax,r trojan,r Gcore v6,r Gcore v4,r cdn v4,r cdn v6,fly.io,Koyeb-to v4,Koyeb-to v6
+📲 电报信息 = select,🚀 节点选择,🎯 全球直连,euserv v4,euserv v6,hax v4,hax v6,hax,r trojan,r Gcore v6,r Gcore v4,r cdn v4,r cdn v6,fly.io,Koyeb-to v4,Koyeb-to v6
+Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,euserv v4,euserv v6,hax v4,hax v6,hax,r trojan,r Gcore v6,r Gcore v4,r cdn v4,r cdn v6,fly.io,Koyeb-to v4,Koyeb-to v6
+🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,euserv v4,euserv v6,hax v4,hax v6,hax,r trojan,r Gcore v6,r Gcore v4,r cdn v4,r cdn v6,fly.io,Koyeb-to v4,Koyeb-to v6
+🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
+🛑 全球拦截 = select,REJECT,DIRECT
+🍃 应用净化 = select,REJECT,DIRECT
+🆎 AdBlock = select,REJECT,DIRECT
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,euserv v4,euserv v6,hax v4,hax v6,hax,r trojan,r Gcore v6,r Gcore v4,r cdn v4,r cdn v6,fly.io,Koyeb-to v4,Koyeb-to v6
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list,🛑 全球拦截,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list,🍃 应用净化,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list,🆎 AdBlock,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list,🆎 AdBlock,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list,🆎 AdBlock,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list,📢 谷歌FCM,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list,Ⓜ️ 微软服务,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list,🍎 苹果服务,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list,📲 电报信息,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list,🌍 国外媒体,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list,🚀 节点选择,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list,🎯 全球直连,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,🎯 全球直连,update-interval=86400
+GEOIP,CN,🎯 全球直连
+FINAL,🐟 漏网之鱼
