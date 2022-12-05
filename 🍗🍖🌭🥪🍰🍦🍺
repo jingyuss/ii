@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - name: euserv v4
-    server: 104.17.81.125
+  - name: euserv v4 🇩🇪 
+    server: 104.17.114.196
     port: 443
     type: vmess
     uuid: 837a91a4-f6fc-46ac-ec7b-83ee17299bf2
@@ -20,8 +20,8 @@ proxies:
       path: /
       headers:
         Host: dj.jingyuss.tk
-  - name: euserv v6
-    server: "[2606:4700:f4:c7bd:83c3:befe:76e7:9659]"
+  - name: euserv v6 🇩🇪 
+    server: "[2606:4700:a0:0:6974:2f65:89f6:194b]"
     port: 443
     type: vmess
     uuid: 837a91a4-f6fc-46ac-ec7b-83ee17299bf2
@@ -35,8 +35,8 @@ proxies:
       path: /
       headers:
         Host: dj.jingyuss.tk
-  - name: hax cdn
-    server: 172.64.144.12
+  - name: hax cdn 🇩🇪 
+    server: 104.17.114.196
     port: 443
     type: vmess
     uuid: 50d9f54a-2ea0-4e47-8b20-6ace3b8b683c
@@ -50,7 +50,7 @@ proxies:
       path: /
       headers:
         Host: hax.jingying.cf
-  - name: hax zl
+  - name: hax zl 🇩🇪 
     server: hax.jingying.cf
     port: 53929
     type: vmess
@@ -60,34 +60,11 @@ proxies:
     tls: false
     skip-cert-verify: true
     udp: true
-  - name: r trojan
-    server: zz.jingying.ml
-    port: 443
-    type: trojan
-    password: 110.001.
-    sni: zz.jingying.ml
-    skip-cert-verify: true
-    udp: true
-  - name: r Gcore v6
-    server: cc.jingying.eu.org
-    port: 443
-    type: vmess
-    uuid: 65fffd64-e430-47d0-a51c-e6006d313515
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    udp: true
-    ws-opts:
-      path: /nn
-      headers:
-        Host: cc.jingying.eu.org
-  - name: r Gcore v4
+  - name: r Gcore v4 🇺🇸 
     server: 92.223.116.222
     port: 443
     type: vmess
-    uuid: 65fffd64-e430-47d0-a51c-e6006d313515
+    uuid: 6f3207b2-736b-4511-a4ad-c69e7d4aa29c
     alterId: 0
     cipher: auto
     tls: true
@@ -95,11 +72,11 @@ proxies:
     network: ws
     udp: true
     ws-opts:
-      path: /nn
+      path: /nmsldsb
       headers:
-        Host: cc.jingying.eu.org
-  - name: r cdn v4
-    server: 141.101.114.2
+        Host: nmsldsb.gq
+  - name: r cdn v4 🇺🇸 
+    server: 104.17.114.196
     port: 8443
     type: vmess
     uuid: d47e3d90-fd74-463e-8d10-9738705c66da
@@ -113,8 +90,8 @@ proxies:
       path: /
       headers:
         Host: zz.jingying.ml
-  - name: r cdn v6
-    server: "[2606:4700:f4:c7bd:83c3:befe:76e7:9659]"
+  - name: r cdn v6 🇺🇸 
+    server: "[2606:4700:a0:0:6974:2f65:89f6:194b]"
     port: 8443
     type: vmess
     uuid: d47e3d90-fd74-463e-8d10-9738705c66da
@@ -128,7 +105,7 @@ proxies:
       path: /
       headers:
         Host: zz.jingying.ml
-  - name: fly.io
+  - name: fly.io 🇺🇸 
     server: iioocc.fly.dev
     port: 443
     type: vmess
@@ -143,8 +120,8 @@ proxies:
       path: /
       headers:
         Host: iioocc.fly.dev
-  - name: Koyeb-to v4
-    server: 172.64.150.123
+  - name: Koyeb-to v4 🇺🇸 
+    server: 104.17.114.196
     port: 443
     type: vmess
     uuid: b8bc0e2e-b0fd-42d8-8594-6833ebe25ceb
@@ -158,8 +135,8 @@ proxies:
       path: /b8bc0e2e-b0fd-42d8-8594-6833ebe25ceb-vmess
       headers:
         Host: hutao-majingyumajingyu.koyeb.app
-  - name: Koyeb-to v6
-    server: "[2606:4700:f4:c7bd:83c3:befe:76e7:9659]"
+  - name: Koyeb-to v6 🇺🇸 
+    server: "[2606:4700:a0:0:6974:2f65:89f6:194b]"
     port: 443
     type: vmess
     uuid: b8bc0e2e-b0fd-42d8-8594-6833ebe25ceb
@@ -179,53 +156,47 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - euserv v4
-      - euserv v6
-      - hax cdn
-      - hax zl
-      - r trojan
-      - r Gcore v6
-      - r Gcore v4
-      - r cdn v4
-      - r cdn v6
-      - fly.io
-      - Koyeb-to v4
-      - Koyeb-to v6
+      - euserv v4 🇩🇪 
+      - euserv v6 🇩🇪 
+      - hax cdn 🇩🇪 
+      - hax zl 🇩🇪 
+      - r Gcore v4 🇺🇸 
+      - r cdn v4 🇺🇸 
+      - r cdn v6 🇺🇸 
+      - fly.io 🇺🇸 
+      - Koyeb-to v4 🇺🇸 
+      - Koyeb-to v6 🇺🇸 
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - euserv v4
-      - euserv v6
-      - hax cdn
-      - hax zl
-      - r trojan
-      - r Gcore v6
-      - r Gcore v4
-      - r cdn v4
-      - r cdn v6
-      - fly.io
-      - Koyeb-to v4
-      - Koyeb-to v6
+      - euserv v4 🇩🇪 
+      - euserv v6 🇩🇪 
+      - hax cdn 🇩🇪 
+      - hax zl 🇩🇪 
+      - r Gcore v4 🇺🇸 
+      - r cdn v4 🇺🇸 
+      - r cdn v6 🇺🇸 
+      - fly.io 🇺🇸 
+      - Koyeb-to v4 🇺🇸 
+      - Koyeb-to v6 🇺🇸 
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - euserv v4
-      - euserv v6
-      - hax cdn
-      - hax zl
-      - r trojan
-      - r Gcore v6
-      - r Gcore v4
-      - r cdn v4
-      - r cdn v6
-      - fly.io
-      - Koyeb-to v4
-      - Koyeb-to v6
+      - euserv v4 🇩🇪 
+      - euserv v6 🇩🇪 
+      - hax cdn 🇩🇪 
+      - hax zl 🇩🇪 
+      - r Gcore v4 🇺🇸 
+      - r cdn v4 🇺🇸 
+      - r cdn v6 🇺🇸 
+      - fly.io 🇺🇸 
+      - Koyeb-to v4 🇺🇸 
+      - Koyeb-to v6 🇺🇸 
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -244,18 +215,16 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - euserv v4
-      - euserv v6
-      - hax cdn
-      - hax zl
-      - r trojan
-      - r Gcore v6
-      - r Gcore v4
-      - r cdn v4
-      - r cdn v6
-      - fly.io
-      - Koyeb-to v4
-      - Koyeb-to v6
+      - euserv v4 🇩🇪 
+      - euserv v6 🇩🇪 
+      - hax cdn 🇩🇪 
+      - hax zl 🇩🇪 
+      - r Gcore v4 🇺🇸 
+      - r cdn v4 🇺🇸 
+      - r cdn v6 🇺🇸 
+      - fly.io 🇺🇸 
+      - Koyeb-to v4 🇺🇸 
+      - Koyeb-to v6 🇺🇸 
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -266,53 +235,47 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - euserv v4
-      - euserv v6
-      - hax cdn
-      - hax zl
-      - r trojan
-      - r Gcore v6
-      - r Gcore v4
-      - r cdn v4
-      - r cdn v6
-      - fly.io
-      - Koyeb-to v4
-      - Koyeb-to v6
+      - euserv v4 🇩🇪 
+      - euserv v6 🇩🇪 
+      - hax cdn 🇩🇪 
+      - hax zl 🇩🇪 
+      - r Gcore v4 🇺🇸 
+      - r cdn v4 🇺🇸 
+      - r cdn v6 🇺🇸 
+      - fly.io 🇺🇸 
+      - Koyeb-to v4 🇺🇸 
+      - Koyeb-to v6 🇺🇸 
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - euserv v4
-      - euserv v6
-      - hax cdn
-      - hax zl
-      - r trojan
-      - r Gcore v6
-      - r Gcore v4
-      - r cdn v4
-      - r cdn v6
-      - fly.io
-      - Koyeb-to v4
-      - Koyeb-to v6
+      - euserv v4 🇩🇪 
+      - euserv v6 🇩🇪 
+      - hax cdn 🇩🇪 
+      - hax zl 🇩🇪 
+      - r Gcore v4 🇺🇸 
+      - r cdn v4 🇺🇸 
+      - r cdn v6 🇺🇸 
+      - fly.io 🇺🇸 
+      - Koyeb-to v4 🇺🇸 
+      - Koyeb-to v6 🇺🇸 
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - euserv v4
-      - euserv v6
-      - hax cdn
-      - hax zl
-      - r trojan
-      - r Gcore v6
-      - r Gcore v4
-      - r cdn v4
-      - r cdn v6
-      - fly.io
-      - Koyeb-to v4
-      - Koyeb-to v6
+      - euserv v4 🇩🇪 
+      - euserv v6 🇩🇪 
+      - hax cdn 🇩🇪 
+      - hax zl 🇩🇪 
+      - r Gcore v4 🇺🇸 
+      - r cdn v4 🇺🇸 
+      - r cdn v6 🇺🇸 
+      - fly.io 🇺🇸 
+      - Koyeb-to v4 🇺🇸 
+      - Koyeb-to v6 🇺🇸 
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -328,18 +291,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - euserv v4
-      - euserv v6
-      - hax cdn
-      - hax zl
-      - r trojan
-      - r Gcore v6
-      - r Gcore v4
-      - r cdn v4
-      - r cdn v6
-      - fly.io
-      - Koyeb-to v4
-      - Koyeb-to v6
+      - euserv v4 🇩🇪 
+      - euserv v6 🇩🇪 
+      - hax cdn 🇩🇪 
+      - hax zl 🇩🇪 
+      - r Gcore v4 🇺🇸 
+      - r cdn v4 🇺🇸 
+      - r cdn v6 🇺🇸 
+      - fly.io 🇺🇸 
+      - Koyeb-to v4 🇺🇸 
+      - Koyeb-to v6 🇺🇸 
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
