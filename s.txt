@@ -27,17 +27,17 @@ DIRECT = direct
 
 [Proxy Group]
 🚀 节点选择 = select,♻️ 自动选择,DIRECT,🇩🇪 euserv v4,🇩🇪 euserv v6,🇩🇪 hax v4,🇩🇪 hax v6,🇩🇪 hax,🇺🇸 r Gcore v4,🇺🇸 r cdn v4,🇺🇸 r cdn v6,🇺🇸 fly.io,🇺🇸 Koyeb-to v4,🇺🇸 Koyeb-to v6
-♻️ 自动选择 = url-test,euserv v4,euserv v6,hax v4,hax v6,hax,r trojan,r Gcore v6,r Gcore v4,r cdn v4,r cdn v6,fly.io,Koyeb-to v4,Koyeb-to v6,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
-🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,euserv v4,euserv v6,hax v4,hax v6,hax,r trojan,r Gcore v6,r Gcore v4,r cdn v4,r cdn v6,fly.io,Koyeb-to v4,Koyeb-to v6
-📢 谷歌FCM = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,euserv v4,euserv v6,hax v4,hax v6,hax,r trojan,r Gcore v6,r Gcore v4,r cdn v4,r cdn v6,fly.io,Koyeb-to v4,Koyeb-to v6
-📲 电报信息 = select,🚀 节点选择,🎯 全球直连,euserv v4,euserv v6,hax v4,hax v6,hax,r trojan,r Gcore v6,r Gcore v4,r cdn v4,r cdn v6,fly.io,Koyeb-to v4,Koyeb-to v6
-Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,euserv v4,euserv v6,hax v4,hax v6,hax,r trojan,r Gcore v6,r Gcore v4,r cdn v4,r cdn v6,fly.io,Koyeb-to v4,Koyeb-to v6
-🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,euserv v4,euserv v6,hax v4,hax v6,hax,r trojan,r Gcore v6,r Gcore v4,r cdn v4,r cdn v6,fly.io,Koyeb-to v4,Koyeb-to v6
+♻️ 自动选择 = url-test,🇩🇪 euserv v4,🇩🇪 euserv v6,🇩🇪 hax v4,🇩🇪 hax v6,🇩🇪 hax,🇺🇸 r Gcore v4,🇺🇸 r cdn v4,🇺🇸 r cdn v6,🇺🇸 fly.io,🇺🇸 Koyeb-to v4,🇺🇸 Koyeb-to v6,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,🇩🇪 euserv v4,🇩🇪 euserv v6,🇩🇪 hax v4,🇩🇪 hax v6,🇩🇪 hax,🇺🇸 r Gcore v4,🇺🇸 r cdn v4,🇺🇸 r cdn v6,🇺🇸 fly.io,🇺🇸 Koyeb-to v4,🇺🇸 Koyeb-to v6
+📢 谷歌FCM = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇩🇪 euserv v4,🇩🇪 euserv v6,🇩🇪 hax v4,🇩🇪 hax v6,🇩🇪 hax,🇺🇸 r Gcore v4,🇺🇸 r cdn v4,🇺🇸 r cdn v6,🇺🇸 fly.io,🇺🇸 Koyeb-to v4,🇺🇸 Koyeb-to v6
+📲 电报信息 = select,🚀 节点选择,🎯 全球直连,🇩🇪 euserv v4,🇩🇪 euserv v6,🇩🇪 hax v4,🇩🇪 hax v6,🇩🇪 hax,🇺🇸 r Gcore v4,🇺🇸 r cdn v4,🇺🇸 r cdn v6,🇺🇸 fly.io,🇺🇸 Koyeb-to v4,🇺🇸 Koyeb-to v6
+Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,🇩🇪 euserv v4,🇩🇪 euserv v6,🇩🇪 hax v4,🇩🇪 hax v6,🇩🇪 hax,🇺🇸 r Gcore v4,🇺🇸 r cdn v4,🇺🇸 r cdn v6,🇺🇸 fly.io,🇺🇸 Koyeb-to v4,🇺🇸 Koyeb-to v6
+🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,🇩🇪 euserv v4,🇩🇪 euserv v6,🇩🇪 hax v4,🇩🇪 hax v6,🇩🇪 hax,🇺🇸 r Gcore v4,🇺🇸 r cdn v4,🇺🇸 r cdn v6,🇺🇸 fly.io,🇺🇸 Koyeb-to v4,🇺🇸 Koyeb-to v6
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
 🛑 全球拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
 🆎 AdBlock = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,euserv v4,euserv v6,hax v4,hax v6,hax,r trojan,r Gcore v6,r Gcore v4,r cdn v4,r cdn v6,fly.io,Koyeb-to v4,Koyeb-to v6
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇩🇪 euserv v4,🇩🇪 euserv v6,🇩🇪 hax v4,🇩🇪 hax v6,🇩🇪 hax,🇺🇸 r Gcore v4,🇺🇸 r cdn v4,🇺🇸 r cdn v6,🇺🇸 fly.io,🇺🇸 Koyeb-to v4,🇺🇸 Koyeb-to v6
 
 [Rule]
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 全球直连,update-interval=86400
