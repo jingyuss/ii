@@ -20,21 +20,6 @@ proxies:
       path: /
       headers:
         Host: dj.jingyuss.tk
-  - name:  🇩🇪 euserv v6
-    server: "[2606:4700:a0:0:6974:2f65:89f6:194b]"
-    port: 443
-    type: vmess
-    uuid: 837a91a4-f6fc-46ac-ec7b-83ee17299bf2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    udp: true
-    ws-opts:
-      path: /
-      headers:
-        Host: dj.jingyuss.tk
   - name:  🇩🇪 hax cdn
     server: 172.64.157.78
     port: 443
@@ -75,11 +60,11 @@ proxies:
       path: /nmsldsb
       headers:
         Host: nmsldsb.gq
-  - name:  🇺🇸 r cdn v4
-    server: 172.64.157.78
-    port: 8443
+  - name:  🇺🇸 raksmart
+    server: www.jingyuss.tk
+    port: 443
     type: vmess
-    uuid: d47e3d90-fd74-463e-8d10-9738705c66da
+    uuid: 09b38f1f-f61a-4633-be1a-9d704454a11a
     alterId: 0
     cipher: auto
     tls: true
@@ -87,24 +72,9 @@ proxies:
     network: ws
     udp: true
     ws-opts:
-      path: /
+      path: /09b38f1f-f61a-4633-be1a-9d704454a11a
       headers:
-        Host: zz.jingying.ml
-  - name:  🇺🇸 r cdn v6
-    server: "[2606:4700:a0:0:6974:2f65:89f6:194b]"
-    port: 8443
-    type: vmess
-    uuid: d47e3d90-fd74-463e-8d10-9738705c66da
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    udp: true
-    ws-opts:
-      path: /
-      headers:
-        Host: zz.jingying.ml
+        Host: www.jingyuss.tk
   - name:  🇺🇸 fly.io
     server: iioocc.fly.dev
     port: 443
@@ -135,21 +105,6 @@ proxies:
       path: /b8bc0e2e-b0fd-42d8-8594-6833ebe25ceb-vmess
       headers:
         Host: hutao-majingyumajingyu.koyeb.app
-  - name:  🇺🇸 Koyeb-to v6
-    server: "[2606:4700:a0:0:6974:2f65:89f6:194b]"
-    port: 443
-    type: vmess
-    uuid: b8bc0e2e-b0fd-42d8-8594-6833ebe25ceb
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    udp: true
-    ws-opts:
-      path: /b8bc0e2e-b0fd-42d8-8594-6833ebe25ceb-vmess
-      headers:
-        Host: hutao-majingyumajingyu.koyeb.app
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -157,30 +112,24 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       -  🇩🇪 euserv v4
-      -  🇩🇪 euserv v6
       -  🇩🇪 hax cdn
       -  🇩🇪 hax zl
       -  🇺🇸 r Gcore v4
-      -  🇺🇸 r cdn v4
-      -  🇺🇸 r cdn v6
+      -  🇺🇸 raksmart
       -  🇺🇸 fly.io
       -  🇺🇸 Koyeb-to v4
-      -  🇺🇸 Koyeb-to v6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       -  🇩🇪 euserv v4
-      -  🇩🇪 euserv v6
       -  🇩🇪 hax cdn
       -  🇩🇪 hax zl
       -  🇺🇸 r Gcore v4
-      -  🇺🇸 r cdn v4
-      -  🇺🇸 r cdn v6
+      -  🇺🇸 raksmart
       -  🇺🇸 fly.io
       -  🇺🇸 Koyeb-to v4
-      -  🇺🇸 Koyeb-to v6
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -188,15 +137,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       -  🇩🇪 euserv v4
-      -  🇩🇪 euserv v6
       -  🇩🇪 hax cdn
       -  🇩🇪 hax zl
       -  🇺🇸 r Gcore v4
-      -  🇺🇸 r cdn v4
-      -  🇺🇸 r cdn v6
+      -  🇺🇸 raksmart
       -  🇺🇸 fly.io
       -  🇺🇸 Koyeb-to v4
-      -  🇺🇸 Koyeb-to v6
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -216,15 +162,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       -  🇩🇪 euserv v4
-      -  🇩🇪 euserv v6
       -  🇩🇪 hax cdn
       -  🇩🇪 hax zl
       -  🇺🇸 r Gcore v4
-      -  🇺🇸 r cdn v4
-      -  🇺🇸 r cdn v6
+      -  🇺🇸 raksmart
       -  🇺🇸 fly.io
       -  🇺🇸 Koyeb-to v4
-      -  🇺🇸 Koyeb-to v6
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -236,30 +179,24 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       -  🇩🇪 euserv v4
-      -  🇩🇪 euserv v6
       -  🇩🇪 hax cdn
       -  🇩🇪 hax zl
       -  🇺🇸 r Gcore v4
-      -  🇺🇸 r cdn v4
-      -  🇺🇸 r cdn v6
+      -  🇺🇸 raksmart
       -  🇺🇸 fly.io
       -  🇺🇸 Koyeb-to v4
-      -  🇺🇸 Koyeb-to v6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       -  🇩🇪 euserv v4
-      -  🇩🇪 euserv v6
       -  🇩🇪 hax cdn
       -  🇩🇪 hax zl
       -  🇺🇸 r Gcore v4
-      -  🇺🇸 r cdn v4
-      -  🇺🇸 r cdn v6
+      -  🇺🇸 raksmart
       -  🇺🇸 fly.io
       -  🇺🇸 Koyeb-to v4
-      -  🇺🇸 Koyeb-to v6
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -267,15 +204,12 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       -  🇩🇪 euserv v4
-      -  🇩🇪 euserv v6
       -  🇩🇪 hax cdn
       -  🇩🇪 hax zl
       -  🇺🇸 r Gcore v4
-      -  🇺🇸 r cdn v4
-      -  🇺🇸 r cdn v6
+      -  🇺🇸 raksmart
       -  🇺🇸 fly.io
       -  🇺🇸 Koyeb-to v4
-      -  🇺🇸 Koyeb-to v6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -292,15 +226,12 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       -  🇩🇪 euserv v4
-      -  🇩🇪 euserv v6
       -  🇩🇪 hax cdn
       -  🇩🇪 hax zl
       -  🇺🇸 r Gcore v4
-      -  🇺🇸 r cdn v4
-      -  🇺🇸 r cdn v6
+      -  🇺🇸 raksmart
       -  🇺🇸 fly.io
       -  🇺🇸 Koyeb-to v4
-      -  🇺🇸 Koyeb-to v6
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
